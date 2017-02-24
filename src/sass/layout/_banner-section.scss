@@ -1,0 +1,27 @@
+.banner{
+    background-color: #8e8e8e;
+        
+        .title-row {
+            height: 475px;
+            
+            .section-title {
+                text-align: center;
+                font-size: 62px;
+                
+                h2 {
+                    font-size: 60px;
+                    color: #02baab;
+                }
+                
+                h2:nth-of-type(2) {
+                    color: #fff;
+                }
+            }
+        }
+    
+        .buttons-row {
+            min-height: 475px;
+        }
+}
+    
+    

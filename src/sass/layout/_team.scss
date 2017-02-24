@@ -1,0 +1,38 @@
+.team {
+    color: #3b4954;
+    
+    .title-row {
+        paddint-top: 100px;
+        
+        h2 {
+            font-size: 36px;
+        }
+    }
+    
+    .content-row {
+        text-align: center;
+        
+        
+        .name {
+            border: 1px solid #eeeeee;
+            width: 135px;
+//            height: 60px;
+            
+            h4 {
+                font-size: 14px;
+                color: #02baab;
+            }
+            
+            h6 {
+                font-size: 12px;
+                color: #c4c4c4;
+            }
+        }
+        
+        .about {
+            font-size: 12px;
+            color: #3b4954;
+            
+        }
+    }
+}

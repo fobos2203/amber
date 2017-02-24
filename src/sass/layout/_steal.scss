@@ -1,0 +1,46 @@
+.steal {
+    background-color: #ffffff;
+    color: #3b4954;
+    
+    .title-row {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+        .section-title {
+            
+            h2 {
+                font-size:  36px;
+            }
+        }
+    }
+    
+    .subtitle-row {
+        
+        .section-subtitle {
+
+            h4 {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+    
+    
+    .button-row {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        
+        .section-button {
+            
+            .button {
+                border-color: #02baab;
+                color: #02baab;
+                
+                &:hover {
+                    background-color: #02baab;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

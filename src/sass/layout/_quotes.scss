@@ -1,0 +1,30 @@
+.quotes {
+    background-color: #666666;
+    color: #ffffff;
+    
+    .image-row {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .quote-row {
+        
+        h4 {
+            text-align: center;
+            font-size: 24px;
+        }
+    }
+    
+    .author-row {
+        padding-top: 20px;
+        padding-bottom: 150px;
+        
+        h6 {
+            font-family: lato;
+            font-size: 14px;
+            font-weight: bold;
+            color: #02baab;
+            text-transform: uppercase;
+        }
+    }
+}

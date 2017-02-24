@@ -1,0 +1,115 @@
+header {
+    
+    .top-search-bar-container { 
+        background-color: #000;
+        
+        .top-search-bar-row {
+            max-width: 930px;
+            margin: auto;
+
+            .top-search-bar {
+                background-color: #000000;
+                height: 48px;
+                color: #737f8a; 
+                padding: 0;
+
+                .top-bar-left {
+
+                    .search-menu {
+                        background-color: #000000;
+                        border: 1px solid #434a50;
+                        width: 210px;
+                        height: 28px;
+                        box-sizing: border-box;
+
+                        .search-input {
+                            color: #737f8a;
+                            border: none;
+                            background-color: #000000;
+                            margin: 0;
+                            height: 26px;
+                            width: 208-26px;
+                            
+                            &::placeholder {
+                                color: #737f8a;
+                            }
+                        }
+
+                        .search-button {
+                            background: url(/src/images/loupe.png) center no-repeat;
+                            height: 26px;
+                            width: 26px;
+                        }
+                    }
+                }
+
+                .top-bar-right {
+
+                    ul {
+                        background-color: #000000;
+
+                        .login-button{
+                            height: 28px;
+                            width: auto;
+                            background: url(/src/images/login.png) center left no-repeat;
+                            padding-left: 20px;
+                            margin-right: 20px;
+                        }
+
+                        .register-button{
+                            height: 28px;
+                            width: auto;
+                            background: url(/src/images/register.png) center left no-repeat;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .top-menu-bar-container {
+        background-color: #474747;
+        
+        .top-menu-bar-row {
+            width: 930px;
+            margin: auto;
+            
+            .top-menu-bar {
+                color: #ffffff;
+                height: 72px;
+                background-color: #474747;
+                padding: 0;
+                
+                .top-bar-left {
+                    width: auto;
+                    
+                }
+                    
+                .top-bar-right {
+                    height: inherit;
+
+                    .top-menu {
+                        background-color: #474747;
+                        height: inherit;
+                        
+                        li {
+                            height: inherit;
+
+                            a {
+                                color: #ffffff;
+                                width: 99px;
+                                margin: auto;
+                                text-transform: uppercase;
+                                display: inline-block;
+                                line-height: 36px;
+                                font-size: 11px;
+                                text-align: center;
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

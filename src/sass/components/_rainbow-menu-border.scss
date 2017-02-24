@@ -1,0 +1,15 @@
+$base-color: #ffae00;
+$num: 7;
+
+
+@while $num > 0 {
+    
+    $angle:  $num*3600/100;
+    $this-color: adjust-hue($base-color, $angle);
+
+    .top-menu li:nth-of-type(#{$num}) {
+        border-top: 10px solid darken($this-color, 10);
+    };
+    
+    $num: $num - 1;
+}

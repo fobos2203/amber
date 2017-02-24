@@ -1,0 +1,19 @@
+.button {
+    color:white;
+    text-decoration:none;
+    width: 132px;
+    height: 36px;
+    border: 2px solid white;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Oxygen';
+    font-size: 12px;
+    margin: 15px;
+    font-weight: bold;
+    
+    &:hover {
+        background-color: white;
+        color: black;
+        transition: all 0.3s ease;
+    }    
+}

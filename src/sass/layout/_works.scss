@@ -1,0 +1,52 @@
+.works {
+    background-color: #525252;
+    color: #ffffff;
+    
+    .title-row {
+        padding-top: 100px;
+        padding-bottom: 80px;
+        
+        .section-title {
+            
+            h2 {
+                font-size: 32px;
+            }
+        }
+    }
+    
+    .subtitle-row {
+        
+        .section-subtitle {
+            
+            h4 {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+    
+    .picture-row {
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+    
+    
+}
+
+.under-works {
+    background-color: #02baab;
+    color: #ffffff;
+    height: 140px;
+    
+    h4 {
+        line-height: 140px;
+        font-size: 24px;
+    }
+    
+    button {
+        
+        &:hover {
+            color: #02baab;
+        }
+    }
+}
