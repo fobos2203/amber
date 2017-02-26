@@ -11,6 +11,15 @@
             h2 {
                 font-size: 32px;
             }
+            
+            h2:after{
+                content: "";
+                display: block;
+                width: 50px;
+                height: 5px;
+                margin: 10px auto 0px ;
+                background-color: #eeeeee;
+            }
         }
     }
     
@@ -25,9 +34,110 @@
         }
     }
     
-    .picture-row {
+    .works-row {
         padding-top: 45px;
         padding-bottom: 100px;
+        
+        .img {
+            
+            img {
+                margin: 0 auto 0;
+            }
+            
+            .work-info {
+                height: 70px;
+                width: 290px;
+                margin: -70px auto 0;
+                
+                .author {
+                    height: inherit;
+                    width: 85%;
+                    background-color: #3d3d3d;
+                    
+                    h4 {
+                        margin-left: 20px;
+                        margin-top: 15px;
+                        font-size: 14px; 
+                        color: #ffffff;
+                    }
+                    
+                    h6 {
+                        margin-left: 20px;
+                        font-size: 11px;
+                        color: #02baab;
+                    }
+                }
+                
+                .likes {
+                    height: inherit;
+                    width: 15%;
+                    background-color: #3d3d3d;
+                    text-align: center;
+                    
+                    h4 {
+                        margin-right: 20px;
+                        margin-top: 15px;
+                        font-size: 14px; 
+                        color: #ffffff;
+                    }
+                    
+                    h6 {
+                        margin-right: 20px;
+                        font-size: 11px;
+                        color: #02baab;
+                    }
+                }
+            }
+            
+            .icons {
+                height: 290px;
+                width: 290px;
+                margin: -290px auto 0;
+                
+                display: none;
+                
+                .icons-background {
+                    background-color: #666666;
+                    width: 290px;
+                    height: 290px;
+                    text-align: center;
+                    opacity: 0.9;
+                    
+                    .icon-list {
+                        list-style: none;
+                        margin-left: 0px;
+                        margin-top: 65px;
+                        
+                        li {
+                            
+                            span {
+                                display: block;
+                                border: 1px solid #02baab;
+                                border-radius: 20px;
+                                width: 40px;
+                                height: 40px;
+                                background-color: #02baab;
+                                margin: 20px auto;
+                                line-height: 40px;
+                            }
+                        }
+                        
+                        
+                    }
+                }
+            }
+        }
+        
+        .active {
+            
+            .work-info {
+                display: none;
+            }
+            
+            .icons {
+                display: flex;
+            }
+        }
     }
     
     

@@ -1,0 +1,80 @@
+.footer {
+    background-color: #1f2a32;
+    color: #ffffff;
+    font-size: 12px;
+    
+    .rainbow-banner {
+        height: auto;
+        
+        .rainbow1{
+            background-color: #7827a9;
+            height: 15px;
+            width: 25%;
+            
+        }
+        .rainbow2{
+            background-color: #0c8fcc;
+            height: 15px;
+            width: 25%;
+            
+        }
+        .rainbow3{
+            background-color: #de1c5c;
+            height: 15px;
+            width: 25%;
+            
+        }
+        .rainbow4{
+            background-color: #ffae00;
+            height: 15px;
+            width: 25%;
+            
+        }
+    }
+    
+    .content-row {
+        margin-top: 60px;
+        margin-bottom: 70px;
+        
+        div {
+            
+            h2 {
+                font-size: 24px;
+                margin-bottom: 40px;
+                
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                
+                li {
+                    margin-bottom: 30px;
+                    
+                    .icon {
+                        margin-right: 5px;
+                        color: #02baab;
+                        display: inline;
+                        
+                    }
+                    
+                    p {
+                        display: inline;
+                        margin: 0;
+                        
+                        span {
+                            color: #85939f;
+                            
+                        }
+                    }
+                }
+            }
+            
+            .social {
+                margin-left: 15px;
+                
+            }
+        }
+    }
+    
+}
